@@ -4,19 +4,28 @@ Sistema de gestión de base de datos relacional desarrollado para la Fábrica de
 
 ---
 
+## 📊 Diagrama Entidad-Relación
+
+![Diagrama ER - Fábrica Willy Wonka](./02-documentacion/diagrama_ER.png)
+
+> 🖼️ Diagrama completo disponible en [`02-documentacion/diagrama_ER.png`](./02-documentacion/diagrama_ER.png)
+
+---
+
 ## 📂 Estructura del Repositorio
 
 ```text
-proyecto-willy-wonka/
+sql_proyecto_willy_wonka/
 ├── 01-scripts-sql/
-│   ├── 01_creacion_estructura.sql    # Evaluación 1: Tablas, índices y vistas
-│   ├── 02_insercion_datos.sql        # Evaluación 2: Inserts masivos
-│   ├── 03_consultas_ejemplos.sql     # Evaluación 2: SELECT, JOIN, UPDATE, DELETE
-│   └── 00_backup_completo_pgdump.sql # Backup completo (pg_dump)
+│   ├── 00_backup_completo_pgdump.sql
+│   ├── 01_creacion_estructura.sql
+│   ├── 02_insercion_datos.sql
+│   └── 03_consultas_ejemplos.sql
 ├── 02-documentacion/
-│   ├── Evaluacion_1_Diseno_BBDD.pdf
-│   ├── Evaluacion_2_Insercion_Consulta.pdf
-│   └── Caso_Estudio_Wonka_Digital.pdf
+│   ├── 01_diseno_bbdd.pdf
+│   ├── 02_insercion_consulta.pdf
+│   ├── 03_caso_estudio_wonka_digital.pdf
+│   └── diagrama_ER.png
 ├── README.md
 └── LICENSE
 ```
@@ -71,9 +80,21 @@ psql -U tu_usuario -d nombre_base_datos -f 01-scripts-sql/03_consultas_ejemplos.
 
 Toda la documentación del proyecto se encuentra en la carpeta [`02-documentacion/`](./02-documentacion/):
 
-- 📘 **Evaluación 1 - Diseño de BBDD:** Modelado, normalización, diccionario de datos y diagramas.
-- 📗 **Evaluación 2 - Inserción y Consulta:** Carga masiva de datos, sentencias DML y casos de prueba.
-- 📕 **Caso de Estudio - Wonka Digital:** Planteamiento del problema y requerimientos del negocio.
+- 📘 **`01_diseno_bbdd.pdf`** — Modelado, normalización, diccionario de datos y diagramas.
+- 📗 **`02_insercion_consulta.pdf`** — Carga masiva de datos, sentencias DML y casos de prueba.
+- 📕 **`03_caso_estudio_wonka_digital.pdf`** — Planteamiento del problema y requerimientos del negocio.
+- 🖼️ **`diagrama_ER.png`** — Diagrama Entidad-Relación del modelo de datos.
+
+---
+
+## 📜 Scripts SQL
+
+| Archivo | Descripción |
+|---------|-------------|
+| `00_backup_completo_pgdump.sql` | Backup completo generado con `pg_dump` (estructura + datos) |
+| `01_creacion_estructura.sql` | Creación de tablas, índices y vistas |
+| `02_insercion_datos.sql` | Inserción masiva de datos (3.265 registros) |
+| `03_consultas_ejemplos.sql` | Ejemplos de `SELECT`, `JOIN`, `UPDATE` y `DELETE` |
 
 ---
 
@@ -94,5 +115,5 @@ Este proyecto está bajo la licencia especificada en el archivo [`LICENSE`](./LI
 
 <p align="center">
   <strong>Proyecto desarrollado para la cátedra de Base de Datos I - UNETI</strong><br>
-  <em>Universidad Nacional Experimental de la Gran Caracas</em>
+  <em>Universidad Nacional Experimental del Táchira</em>
 </p>
