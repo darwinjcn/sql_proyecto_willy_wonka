@@ -115,5 +115,5 @@ Este proyecto está bajo la licencia especificada en el archivo [`LICENSE`](./LI
 
 <p align="center">
   <strong>Proyecto desarrollado para la cátedra de Base de Datos I - UNETI</strong><br>
-  <em>Universidad Nacional Experimental de las Telecominicaciones e Informatica</em>
+  <em>Universidad Nacional Experimental de las Telecomunicaciones e Informática</em>
 </p>
