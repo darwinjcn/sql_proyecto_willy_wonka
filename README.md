@@ -100,10 +100,12 @@ Toda la documentación formal del proyecto se encuentra en la carpeta [`02-docum
 
 | Archivo | Descripción |
 |---------|-------------|
-| `00_backup_completo_pgdump.sql` | Backup completo generado con `pg_dump` (estructura + datos) |
-| `01_creacion_estructura.sql` | Creación de tablas, índices y vistas |
-| `02_insercion_datos.sql` | Inserción masiva de datos (3.265 registros) |
-| `03_consultas_ejemplos.sql` | Ejemplos de `SELECT`, `JOIN`, `UPDATE` y `DELETE` |
+| 📄 [**`00_backup_completo_pgdump.sql`**](https://github.com/darwinjcn/sql_proyecto_willy_wonka/blob/main/01-scripts-sql/00_backup_completo_pgdump.sql) | Backup completo generado con `pg_dump` (estructura + datos) |
+| 🏗️ [**`01_creacion_estructura.sql`**](https://github.com/darwinjcn/sql_proyecto_willy_wonka/blob/main/01-scripts-sql/01_creacion_estructura.sql) | Creación de tablas, índices, restricciones y vistas |
+| 💾 [**`02_insercion_datos.sql`**](https://github.com/darwinjcn/sql_proyecto_willy_wonka/blob/main/01-scripts-sql/02_insercion_datos.sql) | Inserción masiva de datos (3.265 registros de prueba) |
+| 🔍 [**`03_consultas_ejemplos.sql`**](https://github.com/darwinjcn/sql_proyecto_willy_wonka/blob/main/01-scripts-sql/03_consultas_ejemplos.sql) | Ejemplos prácticos de `SELECT`, `JOIN`, `UPDATE` y `DELETE` |
+
+> 💡 **Tip:** Haz clic en cualquier archivo para ver el código fuente directamente en GitHub o usar el botón "Raw" / "Copy" para copiarlo.
 
 ---
 
