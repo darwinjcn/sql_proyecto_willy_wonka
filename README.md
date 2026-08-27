@@ -2,6 +2,14 @@
 
 Sistema de gestión de base de datos relacional desarrollado para la Fábrica de Chocolates Wonka Digital. Permite administrar **recetas, inventario de ingredientes, producción, empleados (Oompa Loompas), equipos y control de calidad**.
 
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17+-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![SQL](https://img.shields.io/badge/SQL-Est%C3%A1ndar-4479A1?style=for-the-badge&logo=database&logoColor=white)](https://www.postgresql.org/docs/current/sql.html)
+[![psql](https://img.shields.io/badge/psql-CLI-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/docs/current/app-psql.html)
+[![pg_dump](https://img.shields.io/badge/pg_dump-Backup-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/docs/current/app-pgdump.html)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+
+
 ---
 
 ## 📊 Diagrama Entidad-Relación
@@ -66,24 +74,25 @@ psql -U tu_usuario -d nombre_base_datos -f 01-scripts-sql/03_consultas_ejemplos.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías y Herramientas
 
 | Componente | Detalle |
 |------------|---------|
-| 🐘 Motor de Base de Datos | PostgreSQL 17+ |
-| 📝 Lenguaje | SQL Estándar |
-| 🗂️ Versionado | Git / GitHub |
+| 🐘 **Motor de Base de Datos** | PostgreSQL 17+ |
+| 📝 **Lenguaje de Consulta** | SQL Estándar (DDL, DML, DQL) |
+| ⚙️ **Herramientas Nativas** | `psql` (CLI) y `pg_dump` (Backups) |
+| 🗂️ **Control de Versiones** | Git / GitHub |
 
 ---
 
 ## 📚 Documentación
 
-Toda la documentación del proyecto se encuentra en la carpeta [`02-documentacion/`](./02-documentacion/):
+Toda la documentación formal del proyecto se encuentra en la carpeta [`02-documentacion/`](https://github.com/darwinjcn/sql_proyecto_willy_wonka/tree/main/02-documentacion):
 
-- 📘 **`01_diseno_bbdd.pdf`** — Modelado, normalización, diccionario de datos y diagramas.
-- 📗 **`02_insercion_consulta.pdf`** — Carga masiva de datos, sentencias DML y casos de prueba.
-- 📕 **`03_caso_estudio_wonka_digital.pdf`** — Planteamiento del problema y requerimientos del negocio.
-- 🖼️ **`diagrama_ER.png`** — Diagrama Entidad-Relación del modelo de datos.
+- 📘 **[01_diseno_bbdd.pdf](https://github.com/darwinjcn/sql_proyecto_willy_wonka/blob/main/02-documentacion/01_diseno_bbdd.pdf)** — Modelado, normalización, diccionario de datos y diagramas.
+- 📗 **[02_insercion_consulta.pdf](https://github.com/darwinjcn/sql_proyecto_willy_wonka/blob/main/02-documentacion/02_insercion_consulta.pdf)** — Carga masiva de datos, sentencias DML y casos de prueba.
+- 📕 **[03_caso_estudio_wonka_digital.pdf](https://github.com/darwinjcn/sql_proyecto_willy_wonka/blob/main/02-documentacion/03_caso_estudio_wonka_digital.pdf)** — Planteamiento del problema y requerimientos del negocio.
+- 🖼️ **[diagrama_ER.png](https://github.com/darwinjcn/sql_proyecto_willy_wonka/blob/main/02-documentacion/diagrama_ER.png)** — Diagrama Entidad-Relación del modelo de datos (Vista rápida).
 
 ---
 

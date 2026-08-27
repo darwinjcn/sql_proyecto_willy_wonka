@@ -1,0 +1,8 @@
+# Forzar a GitHub a reconocer los archivos .sql como el lenguaje principal
+*.sql linguist-language=SQL
+*.sql linguist-detectable=true
+
+# Excluir archivos de documentación y binarios del conteo de lenguajes
+*.pdf linguist-detectable=false
+README.md linguist-detectable=false
+*.md linguist-detectable=false
